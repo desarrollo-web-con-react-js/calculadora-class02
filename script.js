@@ -1,11 +1,11 @@
-// calculadora.js
+// calculadora script.js
 
-function calcular(numero) {
+function calcular(operacion) {
     const operand1 = parseFloat(document.getElementById('operand1').value);
     const operand2 = parseFloat(document.getElementById('operand2').value);
     let result = 0;
 
-    switch (numero) {
+    switch (operacion) {
         case '+':
             result = operand1 + operand2;
             break;
